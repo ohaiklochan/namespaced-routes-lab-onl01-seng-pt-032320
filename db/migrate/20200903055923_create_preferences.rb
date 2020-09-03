@@ -5,6 +5,8 @@ class CreatePreferences < ActiveRecord::Migration[5.0]
       t.string :song_sort_order
       t.boolean :allow_create_artists
       t.boolean :allow_create_songs
+      
+      t.timeframe
     end
   end
 end
